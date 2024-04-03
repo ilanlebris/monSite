@@ -1,0 +1,45 @@
+body {
+    font-family: Segoe Print;
+    background: linear-gradient(to bottom right, #e0e0e0, #6d0000);
+    background-attachment: fixed;
+    padding: 0 5%;
+}
+
+nav a {
+    text-decoration: none;
+    background: #ffffff;
+    color: #6d0000;
+    border: solid;
+    line-height: 5em;
+    padding: 10px 10px; 
+    font-size: 20px; 
+    border-radius: 5px;
+}
+
+nav a:hover{
+    background: #a6a4a4;
+    transform: scale(2,2);
+}
+
+a {
+    transition: border-radius 1s,
+                border 1s,
+                background-color 0.5s,
+                opacity 1s;
+}
+
+h1 {
+    color: #6d0000;
+}
+
+code {
+    font-family: Segoe Print;
+    font-size: 25px; 
+    color: #6d0000;
+}
+
+img { 
+    box-shadow: 12px 12px 0px -1px #a6a4a4;
+	border-radius: 5px;
+    width: 30%;
+}
