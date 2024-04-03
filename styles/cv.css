@@ -1,0 +1,17 @@
+p {
+    display: none;
+	position: absolute;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+}
+
+div a:hover p{
+    display: block;
+}
+
