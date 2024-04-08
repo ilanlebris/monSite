@@ -1,0 +1,12 @@
+span {
+    margin: auto;
+    padding: 1em;
+}
+
+img {
+    width: auto;
+}
+
+figure {
+    display: flex
+}
