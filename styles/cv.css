@@ -8,10 +8,15 @@ div {
 }
 
 img {
+    filter: blur(4px);
     width: 50%;
 }
 
-div a:hover p{
-    display: block;
+img {
+    transition: filter 0.5s;
+}
+
+img:hover {
+    filter: blur(0);
 }
 
